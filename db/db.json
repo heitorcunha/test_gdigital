@@ -1,0 +1,111 @@
+{
+  "reserva": {
+    "horarios": [
+      {
+        "id": 1,
+        "tipo": "19:00h"
+      },
+      {
+        "id": 2,
+        "tipo": "19:30h"
+      },
+      {
+        "id": 3,
+        "tipo": "20:00h"
+      },
+      {
+        "id": 4,
+        "tipo": "20:30h"
+      },
+      {
+        "id": 5,
+        "tipo": "21:00h"
+      },
+      {
+        "id": 6,
+        "tipo": "21:30h"
+      },
+      {
+        "id": 7,
+        "tipo": "22:00h"
+      },
+      {
+        "id": 8,
+        "tipo": "22:30h"
+      }
+    ],
+    "cadeiras": [
+      {
+        "id": 1,
+        "tipo": "2 cadeiras"
+      },
+      {
+        "id": 2,
+        "tipo": "4 cadeiras"
+      },
+      {
+        "id": 3,
+        "tipo": "6 cadeiras"
+      }
+    ]
+  },
+  "status": [
+    {
+      "id": 1,
+      "tipo": "Aguardando chegada"
+    },
+    {
+      "id": 2,
+      "tipo": "No estabelecimento"
+    },
+    {
+      "id": 1,
+      "tipo": "Atraso"
+    }
+  ],
+  "reservas": [
+    {
+      "nome": "heitor",
+      "dia": "20/05/22",
+      "cadeira": "2 cadeiras",
+      "horario": null,
+      "status": "Solicitado",
+      "id": 1
+    },
+    {
+      "nome": "jose",
+      "dia": "10/02/2022",
+      "cadeira": "4 cadeiras",
+      "horario": null,
+      "status": "Solicitado",
+      "id": 2
+    },
+    {
+      "nome": "Pedro",
+      "dia": "10/02/2022",
+      "cadeira": "6 cadeiras",
+      "horario": null,
+      "status": "Solicitado",
+      "id": 3
+    }
+  ],
+  "pratos":{
+    "cardapios":[
+    {"id": 1,
+    "tipo": "Macarronada"},
+
+    {"id":2,
+     "tipo":"Feijoada"}
+  
+    ],
+
+    "ingredientes" : [
+
+      {"id":1,
+       "tipo":"macarrão com carne moida"},
+
+       {"id":1,
+        "tipo":"Feijão Preto, Calabresa"}
+    ]
+    }
+  }
